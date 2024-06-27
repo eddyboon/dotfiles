@@ -9,5 +9,8 @@ To install packages from Brewfile, just run "brew bundle install"
 
 - Update the version that you want to download
 
-- Run Command: `curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.19/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf`
+- Run Command: 
+```
+curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.19/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
+```
 
