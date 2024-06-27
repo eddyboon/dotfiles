@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# font pack is in $HOME/Library/Fonts/sketchybar-app-font.ttf
+# Open font book to see the fonts
+# Run this command to update the font icons
+#
+# Update the version that you want to download
+#
+# curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.19/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
+
 function icon_map() {
   case "$1" in
   "Typora")
@@ -242,7 +250,7 @@ function icon_map() {
   "PyCharm")
     icon_result=":pycharm:"
     ;;
-  "Canary Mail" | "Microsoft Outlook" | "HEY" | "Mail" | "Mailspring" | "MailMate" | "邮件")
+  "Canary Mail" | "HEY" | "Mail" | "Mailspring" | "MailMate" | "邮件")
     icon_result=":mail:"
     ;;
   "Default")
@@ -437,6 +445,9 @@ function icon_map() {
   "Microsoft Teams")
     icon_result=":microsoft_teams:"
     ;;
+  "Microsoft Outlook")
+    icon_result=":microsoft_outlook:"
+    ;;
   "Yuque" | "语雀")
     icon_result=":yuque:"
     ;;
@@ -472,6 +483,9 @@ function icon_map() {
     ;;
   "Firefox")
     icon_result=":firefox:"
+    ;;
+  "SF Symbols")
+    icon_result=":sf_symbols:"
     ;;
   "WezTerm")
     icon_result=":wezterm:"
