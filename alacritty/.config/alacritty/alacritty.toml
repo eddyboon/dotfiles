@@ -2,7 +2,7 @@ live_config_reload = true
 
 [window]
 blur = true
-opacity = 0.4
+opacity = 0.6
 decorations = "None"
 padding = { x = 5, y = 5 }
 
@@ -13,3 +13,7 @@ offset = {x = 2}
 
 [terminal]
 osc52 = "CopyPaste"
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
+vi_mode_style = { shape = "Block", blinking = "Off" }
