@@ -111,6 +111,7 @@ bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
 # alias ls="ls -A -G" 
 alias ls="eza --color=always --icons=always -a"
 alias ll="ls -l"
+alias lg="lazygit"
 alias playground="cd ~/Documents/Playground/"
 alias projects="cd ~/Documents/github-Projects/"
 alias docker="/Applications/Docker.app/Contents/Resources/bin/docker"
