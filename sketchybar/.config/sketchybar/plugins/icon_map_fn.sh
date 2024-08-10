@@ -442,7 +442,7 @@ function icon_map() {
   "Tweetbot" | "Twitter")
     icon_result=":twitter:"
     ;;
-  "Microsoft Teams")
+  "Microsoft Teams (work or school)")
     icon_result=":microsoft_teams:"
     ;;
   "Microsoft Outlook")
