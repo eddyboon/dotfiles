@@ -22,12 +22,12 @@ sketchybar --add item volume right \
   label="Increase Volume"\
   icon.color=$LAVENDER \
   label.color=$LAVENDER \
-  click_script="osascript -e 'set volume output volume (output volume of (get volume settings)) + 10'"\
+  click_script="osascript -e 'set volume output volume (output volume of (get volume settings)) + 5'"\
 \
   --add item volume.down popup.volume\
   --set volume.down icon=􁜌\
   label="Decrease Volume"\
   icon.color=$LAVENDER \
   label.color=$LAVENDER \
-  click_script="osascript -e 'set volume output volume (output volume of (get volume settings)) - 10'"\
+  click_script="osascript -e 'set volume output volume (output volume of (get volume settings)) - 5'"\
   --subscribe volume volume_change \
