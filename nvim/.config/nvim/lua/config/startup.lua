@@ -7,6 +7,7 @@ vim.g.startup_bookmarks = {
 	["L"] = '~/.config/nvim/lua/config/lsp/init.lua',
 	["O"] = '~/.config/nvim/lua/config/options.lua',
 	["K"] = '~/.config/nvim/lua/config/keymaps.lua',
+	["Z"] = '~/.zshrc',
 }
 local user_bookmarks = vim.g.startup_bookmarks
 
