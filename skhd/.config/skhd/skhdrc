@@ -71,3 +71,5 @@ ctrl - 9 : yabai -m space --focus  9
 # Move to prev and next space
 shift + ctrl - h : yabai -m space --focus prev
 shift + ctrl - l : yabai -m space --focus next
+shift + ctrl - n : yabai -m space --create
+shift + ctrl - d : yabai -m space --destroy
