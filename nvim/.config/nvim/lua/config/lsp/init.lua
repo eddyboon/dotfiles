@@ -62,7 +62,7 @@ local nvim_lsp = require("lspconfig")
 
 
 -- Add server
-local servers = { "vimls", "tsserver", "quick_lint_js", "pyright", "bashls", "clangd", "omnisharp", "dockerls", "bashls",
+local servers = { "vimls", "ts_ls", "quick_lint_js", "pyright", "bashls", "clangd", "omnisharp", "dockerls", "bashls",
 	"dartls", "html", "sourcekit" }
 
 for _, lsp in ipairs(servers) do

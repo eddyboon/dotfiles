@@ -30,7 +30,7 @@ return packer.startup(function(use)
 	-- use "nvim-treesitter/nvim-treesitter"
 	use "jiangmiao/auto-pairs"
 	use "lukas-reineke/indent-blankline.nvim"
-	use { "neoclide/coc.nvim", branch = "release" }
+	-- use { "neoclide/coc.nvim", branch = "release" }
 	use "tpope/vim-surround"
 	use "phaazon/hop.nvim"
 	use "kyazdani42/nvim-tree.lua"
