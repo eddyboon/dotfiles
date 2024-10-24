@@ -54,4 +54,7 @@ return {
       keys = "etovxqpdygfblzhckisuran",
     },
   },
+  {
+    "github/copilot.vim"
+  },
 }
