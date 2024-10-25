@@ -17,7 +17,8 @@ keymap("n", "gh", "^", { desc = "Go to start of line", noremap = true, silent = 
 keymap("n", "tn", ":BufferLineCycleNext<Enter>", opts)
 keymap("n", "tp", ":BufferLineCyclePrev<Enter>", opts)
 keymap("n", "tt", ":tabnew<Enter>", opts)
-keymap("n", "tc", ":bd<Enter>", opts)
+keymap("n", "tc", ":BufferLinePickClose<Enter>", opts)
+keymap("n", "gt", ":BufferLinePick<Enter>", opts)
 keymap("n", "tm", ":tabm<Space>", opts)
 keymap("n", "<leader><leader>h", "<C-w>h", opts)
 keymap("n", "<leader><leader>l", "<C-w>l", opts)
@@ -29,26 +30,26 @@ keymap("n", "<leader>ff", ":Telescope find_files<Enter>", opts)
 keymap("n", "<leader>fb", ":Telescope buffers<Enter>", opts)
 keymap("n", "<leader>flg", ":Telescope live_grep<Enter>", opts)
 keymap(
-	"n",
-	"<leader>rn",
-	"<cmd>lua vim.lsp.buf.rename()<CR>",
-	{ desc = "Rename Variable", noremap = true, silent = true }
+  "n",
+  "<leader>rn",
+  "<cmd>lua vim.lsp.buf.rename()<CR>",
+  { desc = "Rename Variable", noremap = true, silent = true }
 )
 keymap("n", "<leader>rs", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
 keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
 keymap(
-	"n",
-	"<leader>ca",
-	"<cmd>lua vim.lsp.buf.code_action()<CR>",
-	{ desc = "Quick Fixes", noremap = true, silent = true }
+  "n",
+  "<leader>ca",
+  "<cmd>lua vim.lsp.buf.code_action()<CR>",
+  { desc = "Quick Fixes", noremap = true, silent = true }
 )
 keymap("n", "<leader>w", ":HopWord<Enter>", opts)
 keymap("n", "<leader>l", ":HopLine<Enter>", opts)
 keymap(
-	"v",
-	"<leader>ca",
-	"<cmd>lua vim.lsp.buf.range_code_action()<CR>",
-	{ desc = "Quick Fixes", noremap = true, silent = true }
+  "v",
+  "<leader>ca",
+  "<cmd>lua vim.lsp.buf.range_code_action()<CR>",
+  { desc = "Quick Fixes", noremap = true, silent = true }
 )
 keymap("n", "<leader>kj", "<C-L>", { desc = "Clear Highlight", silent = true })
 keymap("n", "<leader>rd", ":Trouble<CR>", opts)
