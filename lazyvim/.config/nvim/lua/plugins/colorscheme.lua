@@ -10,15 +10,15 @@ return {
   -- }
   --
   -- Catppuccin colorscheme
-  -- {
-  --   "catppuccin/nvim",
-  --   name = "catppuccin",
-  --   lazy = false,
-  --   priority = 1000,
-  --   config = function()
-  --     vim.cmd.colorscheme "catppuccin-macchiato"
-  --   end,
-  -- }
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme "catppuccin-macchiato"
+    end,
+  }
   --
   -- Another onedark colorscheme
   -- {
@@ -44,12 +44,12 @@ return {
   -- }
   --
   -- Tokyonight Colorscheme
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd("colorscheme tokyonight-storm")
-    end,
-  }
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     vim.cmd("colorscheme tokyonight-storm")
+  --   end,
+  -- }
 }
