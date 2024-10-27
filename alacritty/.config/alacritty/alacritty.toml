@@ -1,5 +1,5 @@
 live_config_reload = true
-import = ["~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"]
+# import = ["~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"]
 # This is the github page where the themes come from
 # https://github.com/alacritty/alacritty-theme
 
