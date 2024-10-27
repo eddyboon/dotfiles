@@ -21,17 +21,17 @@ return {
   -- }
 
   -- Another onedark colorscheme
-  {
-    "navarasu/onedark.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("onedark").setup {
-        style = "cool",
-      }
-      require("onedark").load()
-    end,
-  }
+  -- {
+  --   "navarasu/onedark.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     require("onedark").setup {
+  --       style = "cool",
+  --     }
+  --     require("onedark").load()
+  --   end,
+  -- }
 
   -- Dracula Colorscheme
   -- {
@@ -44,12 +44,12 @@ return {
   -- }
 
   -- Tokyonight Colorscheme
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   lazy = false,
-  --   priority = 1000,
-  --   config = function()
-  --     vim.cmd("colorscheme tokyonight-storm")
-  --   end,
-  -- }
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme tokyonight-storm")
+    end,
+  }
 }
