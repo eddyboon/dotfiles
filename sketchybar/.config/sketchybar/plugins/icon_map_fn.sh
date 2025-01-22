@@ -490,6 +490,9 @@ function icon_map() {
   "WezTerm")
     icon_result=":wezterm:"
     ;;
+  "calibre")
+    icon_result=":calibre:"
+    ;;
   *)
     icon_result=":default:"
     ;;
