@@ -10,7 +10,7 @@ Example:<br>
 
 ## Recommended
 - Move the zshrc file into the right place first using stow.
-- After that, when moving other files, just use ```stow <nameOfProgram>```
+- After that, when moving other files, just use ```stow <nameOfProgram>``` (Don't forget to source your new .zshrc file first)
 
 Example (After stowing zsh with the command above):<br>
 ```stow yabai```
