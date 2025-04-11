@@ -2,8 +2,18 @@
 To install packages from Brewfile, just run "brew bundle install"
 
 # Putting files in the right place
-```cd ``` into the dotfiles directory and run the following command:
+```cd``` into the dotfiles directory and run the following command:<br>
 ``` stow --target $HOME <nameOfProgram> ```
+
+Example:<br>
+``` stow --target $HOME zsh ```
+
+## Recommended
+- Move the zshrc file into the right place first using stow.
+- After that, when moving other files, just use ```stow <nameOfProgram>```
+
+Example (After stowing zsh with the command above):<br>
+```stow yabai```
 
 # Sketchybar
 ## Icons
