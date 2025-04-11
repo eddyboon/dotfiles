@@ -2,7 +2,7 @@
 To install packages from Brewfile, just run "brew bundle install"
 
 # Putting files in the right place
-just run ``` stow <nameOfProgram> ```
+just run ``` stow --target $HOME <nameOfProgram> ```
 
 # Sketchybar
 ## Icons
