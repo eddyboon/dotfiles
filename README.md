@@ -1,6 +1,9 @@
 # Homebrew
 To install packages from Brewfile, just run "brew bundle install"
 
+# Putting files in the right place
+just run ``` stow <nameOfProgram> ```
+
 # Sketchybar
 ## Icons
 - Font pack is in $HOME/Library/Fonts/sketchybar-app-font.ttf
