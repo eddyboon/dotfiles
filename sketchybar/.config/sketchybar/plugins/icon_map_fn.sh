@@ -493,6 +493,9 @@ function icon_map() {
   "Surfshark")
     icon_result=":surfshark:"
     ;;
+  "Zen")
+    icon_result=":zen_browser:"
+    ;;
   "calibre")
     icon_result=":calibre:"
     ;;
