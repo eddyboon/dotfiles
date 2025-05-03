@@ -120,6 +120,7 @@ alias playground="cd ~/Documents/Playground/"
 alias projects="cd ~/Documents/github-Projects/"
 alias docker="/Applications/Docker.app/Contents/Resources/bin/docker"
 alias stow="stow --target $HOME"
+alias hostinger="ssh root@167.88.46.242"
 
 # Set up thefuck plugin
 eval $(thefuck --alias)
