@@ -496,6 +496,12 @@ function icon_map() {
   "Zen")
     icon_result=":zen_browser:"
     ;;
+  "Meets")
+    icon_result=":meet:"
+    ;;
+  "TradingView")
+    icon_result=":trading_view:"
+    ;;
   "calibre")
     icon_result=":calibre:"
     ;;
