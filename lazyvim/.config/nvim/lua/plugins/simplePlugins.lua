@@ -18,32 +18,27 @@ return {
     -- use opts = {} for passing setup options
     -- this is equivalent to setup({}) function
   },
-  {
-    "dundalek/lazy-lsp.nvim",
-    dependencies = {
-      "neovim/nvim-lspconfig",
-      { "VonHeikemen/lsp-zero.nvim", branch = "v3.x" },
-      "hrsh7th/cmp-nvim-lsp",
-      "hrsh7th/nvim-cmp",
-    },
-    config = function()
-      local lsp_zero = require("lsp-zero")
-
-      lsp_zero.on_attach(function(client, bufnr)
-        -- see :help lsp-zero-keybindings to learn the available actions
-        lsp_zero.default_keymaps({
-          buffer = bufnr,
-          preserve_mappings = true,
-        })
-      end)
-      require("lazy-lsp").setup({})
-    end,
-  },
-  {
-    "nvim-telescope/telescope.nvim",
-    branch = "0.1.x",
-    dependencies = { "nvim-lua/plenary.nvim" },
-  },
+  -- {
+  --   "dundalek/lazy-lsp.nvim",
+  --   dependencies = {
+  --     "neovim/nvim-lspconfig",
+  --     { "VonHeikemen/lsp-zero.nvim", branch = "v3.x" },
+  --     "hrsh7th/cmp-nvim-lsp",
+  --     "hrsh7th/nvim-cmp",
+  --   },
+  --   config = function()
+  --     local lsp_zero = require("lsp-zero")
+  --
+  --     lsp_zero.on_attach(function(client, bufnr)
+  --       -- see :help lsp-zero-keybindings to learn the available actions
+  --       lsp_zero.default_keymaps({
+  --         buffer = bufnr,
+  --         preserve_mappings = true,
+  --       })
+  --     end)
+  --     require("lazy-lsp").setup({})
+  --   end,
+  -- },
   {
     "tpope/vim-surround",
   },
@@ -55,6 +50,6 @@ return {
     },
   },
   {
-    "github/copilot.vim"
+    "github/copilot.vim",
   },
 }
