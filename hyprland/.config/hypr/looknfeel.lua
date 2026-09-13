@@ -19,6 +19,8 @@ hl.config({
     -- Use round window corners.
     rounding = 8,
 
+    -- testing to see if github is ok
+
     inactive_opacity = 0.85,
     active_opacity = 0.95,
     blur = {
