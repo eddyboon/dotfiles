@@ -40,6 +40,10 @@ o.bind("SUPER + SHIFT + J", "Toggle window split", hl.dsp.layout("togglesplit"))
 hl.unbind("SUPER + L")
 o.bind("SUPER + SHIFT + L", "Toggle workspace layout", "omarchy-hyprland-workspace-layout-toggle")
 
+-- Rebind youtube
+hl.unbind("SUPER + SHIFT + Y")
+o.bind("SUPER + SHIFT + Y", "Youtube in Zen", "xdg-open 'https://youtube.com'")
+
 -- Vim-style focus movement (SUPER+H/J/K/L are free after the remaps above)
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
 o.bind("SUPER + J", "Focus on below window", hl.dsp.focus({ direction = "d" }))
