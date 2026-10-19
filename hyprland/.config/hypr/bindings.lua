@@ -44,6 +44,18 @@ o.bind("SUPER + SHIFT + L", "Toggle workspace layout", "omarchy-hyprland-workspa
 hl.unbind("SUPER + SHIFT + Y")
 o.bind("SUPER + SHIFT + Y", "Youtube in Zen", "xdg-open 'https://youtube.com'")
 
+-- Rebind bitwarden
+hl.unbind("SUPER + SHIFT + B")
+o.bind("SUPER + SHIFT + B", "Bitwarden", hl.dsp.exec_cmd("uwsm app -- bitwarden.desktop"))
+
+-- Rebind yazi
+hl.unbind("SUPER + SHIFT + F")
+o.bind("SUPER + SHIFT + F", "Yazi File Manager", hl.dsp.exec_cmd("kitty -e yazi"))
+
+-- Rebind File Manager
+hl.unbind("SUPER + SHIFT + SLASH")
+o.bind("SUPER + SHIFT + SLASH", "File Manager", hl.dsp.exec_cmd("nautilus ~/Downloads"))
+
 -- Vim-style focus movement (SUPER+H/J/K/L are free after the remaps above)
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
 o.bind("SUPER + J", "Focus on below window", hl.dsp.focus({ direction = "d" }))
