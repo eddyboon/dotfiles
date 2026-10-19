@@ -56,6 +56,10 @@ o.bind("SUPER + SHIFT + F", "Yazi File Manager", hl.dsp.exec_cmd("kitty -e yazi"
 hl.unbind("SUPER + SHIFT + SLASH")
 o.bind("SUPER + SHIFT + SLASH", "File Manager", hl.dsp.exec_cmd("nautilus ~/Downloads"))
 
+-- Rebind whatsapp
+hl.unbind("SUPER + SHIFT + G")
+o.bind("SUPER + SHIFT + G", "Whatsapp", hl.dsp.exec_cmd("uwsm app -- WhatsApp.desktop"))
+
 -- Vim-style focus movement (SUPER+H/J/K/L are free after the remaps above)
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
 o.bind("SUPER + J", "Focus on below window", hl.dsp.focus({ direction = "d" }))
