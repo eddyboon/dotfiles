@@ -40,6 +40,18 @@ hl.config({
   },
 })
 
+
+-- IBKR Gateway: send to workspace 6 without switching to it.
+-- (Java app; class is usually install4j-ibgateway-GWClient. Verify with `hyprctl clients` while it's open.)
+o.window({ class = "(?i).*ibgateway.*" }, { workspace = "6 silent" })
+o.window({ title = "(?i).*IBKR Gateway.*" }, { workspace = "6 silent" })
+
+-- Sierra Chart (Wine): send to workspace 6 without switching to it.
+-- (Class is usually the exe name, e.g. sierrachart_64.exe. Verify with `hyprctl clients` while it's open.)
+o.window({ class = "(?i).*sierrachart.*" }, { workspace = "1 silent" })
+
+
+
 -- https://wiki.hypr.land/Configuring/Basics/Variables/#animations
 -- hl.config({
 --   animations = {
@@ -63,3 +75,4 @@ hl.config({
 --     column_width = 0.97,
 --   },
 -- })
+
